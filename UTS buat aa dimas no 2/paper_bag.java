@@ -8,7 +8,7 @@ public class paper_bag{
     public int PaketPaperBagM = 10000000;
 
     String nama;
-    int noKTP;
+    String noKTP;
     int pilihan;
     int pinjamBulanan;
     public float jumlah;
@@ -26,7 +26,7 @@ public class paper_bag{
         nama = scanner.nextLine();
 
         System.out.print("Masukkan No.KTP Peminjam : ");
-        noKTP = scanner.nextInt();
+        noKTP = scanner.nextLine();
     }
 
     public void ukuranKarung ()
