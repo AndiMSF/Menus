@@ -3,7 +3,7 @@ public class karung {
 
     Scanner scanner = new Scanner (System.in);
     private String nama;
-    private int noKTP;
+    private String noKTP;
 
     public int pilihan;
     public int pinjamBulanan;
@@ -25,7 +25,7 @@ public class karung {
         nama = scanner.nextLine();
 
         System.out.print("Masukkan No.KTP Peminjam : ");
-        noKTP = scanner.nextInt();
+        noKTP = scanner.nextLine();
     }
 
     public void ukuranKarung ()
