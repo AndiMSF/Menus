@@ -27,9 +27,7 @@ public class pinjaman {
             paper_bag.ukuranKarung();
             paper_bag.TotalPinjaman();
         }
-        else {
-        System.out.println("Pilihan Tidak Ada");
-        }
+    
         
         System.out.println("Program Selesai !");
 
